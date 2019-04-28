@@ -1,7 +1,7 @@
 <template>
     <li :key="node.path" v-if="node.namespace === namespace" class="nav-item" :class="nodeClass(node)">
         <nuxt-link :to="(node.containerOnly && node.node && node.node.length > 0) ? node.node[0].path : node.path" :class="nuxtLinkClass(node)">
-            <span class="node-icon" v-if="node.icon"><i :class="'fa-'+ node.icon" class="fal fa-fw"></i></span>
+            <span class="node-icon" v-if="node.icon"><i :class="'fa-'+ node.icon" class="fas fa-fw"></i></span>
             <span class="node-title">{{ node.title }}</span>
         </nuxt-link>
         <ul v-if="node.node && node.node.length > 0">

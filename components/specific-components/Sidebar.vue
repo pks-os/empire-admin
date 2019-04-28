@@ -4,7 +4,7 @@
             <div>
                 <div class="info-bar">
                     <button class="log-off" @click="logOut" v-b-tooltip.hover title="Logout">
-                        <i class="fal fa-power-off"></i>
+                        <i class="fas fa-power-off"></i>
                     </button>
 
                     <h4 class="text-center">{{siteTitle}}</h4>

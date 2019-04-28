@@ -20,7 +20,7 @@
             <b-nav-item-dropdown class="dd-no-padding has-divider-left notification-dropdown" right no-caret>
                 <template slot="button-content">
                     <span class="btn btn-silver btn-circle no-caret">
-                        <i class="fal fa-comment-alt"></i> <sup class="text-warning notification-indicator"><font-awesome-icon icon="circle" /></sup>
+                        <i class="fas fa-comment-alt"></i> <sup class="text-warning notification-indicator"><font-awesome-icon icon="circle" /></sup>
                     </span>
                 </template>
                 <ul class="list-unstyled notification-list">
@@ -36,7 +36,7 @@
             <b-nav-item-dropdown class="dd-no-padding pl-2" right no-caret>
                 <template slot="button-content">
                     <span class="btn btn-silver btn-circle no-caret">
-                        <i class="fal fa-comment-cog"></i>
+                        <i class="fas fa-comment-cog"></i>
                     </span>
                 </template>
 

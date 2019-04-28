@@ -1,7 +1,7 @@
 <template>
     <button type="button" class="chart-legend-item">
         <div class="d-flex pb-2">
-            <span class="btn btn-circle btn-white btn-lg" :class="color"><i :class="'fal fa-' + icon"></i></span>
+            <span class="btn btn-circle btn-white btn-lg" :class="color"><i :class="'fas fa-' + icon"></i></span>
             <div class="legend-title d-inline-block pt-2 ml-2"><div class="text-nowrap text-truncate">{{ dataset.label }}</div><span>{{ showDiff }}</span></div>
         </div>
     </button>

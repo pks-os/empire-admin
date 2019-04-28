@@ -10,7 +10,7 @@
                         <b-form-input type="email" name="email" v-model="email" placeholder="E-mail"></b-form-input>
                         <b-dropdown text="Dropdown" variant="white text-primary border-primary" slot="append" right>
                             <template slot="button-content">
-                                <i class="fal fa-user"></i>
+                                <i class="fas fa-user"></i>
                             </template>
                             <b-dropdown-header>Login as</b-dropdown-header>
                             <b-dropdown-item @click="setLogin('admin')">Admin</b-dropdown-item>

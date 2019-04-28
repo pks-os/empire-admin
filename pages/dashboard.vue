@@ -26,7 +26,7 @@
                             <span class="date-picker-action">{{ new Date() | moment("subtract", "7 days","MMM Do, YYYY") }} - {{ new Date() | moment("MMM Do, YYYY") }}</span>
                             <b-dropdown variant="white btn-circle no-caret" right>
                                 <template slot="button-content">
-                                    <i class="fal fa-filter"></i>
+                                    <i class="fas fa-filter"></i>
                                 </template>
                                 <b-dropdown-header>Actions</b-dropdown-header>
                                 <b-dropdown-item>This Week</b-dropdown-item>
@@ -83,7 +83,7 @@
                             <span class="date-picker-action">{{ new Date() | moment("subtract", "7 days","MMM Do, YYYY") }} - {{ new Date() | moment("MMM Do, YYYY") }}</span>
                             <b-dropdown variant="white btn-circle no-caret" right>
                                 <template slot="button-content">
-                                    <i class="fal fa-filter"></i>
+                                    <i class="fas fa-filter"></i>
                                 </template>
                                 <b-dropdown-header>Actions</b-dropdown-header>
                                 <b-dropdown-item>Punch it, Chewie!</b-dropdown-item>
@@ -100,7 +100,7 @@
                             <template slot="actions" slot-scope="row" class="text-right">
                                 <b-dropdown variant="white btn-circle no-caret" right>
                                     <template slot="button-content">
-                                        <i class="fal fa-th"></i>
+                                        <i class="fas fa-th"></i>
                                     </template>
                                     <b-dropdown-header>Actions</b-dropdown-header>
                                     <b-dropdown-item>Punch it, Chewie!</b-dropdown-item>
@@ -135,7 +135,7 @@
                                     <template slot="actions" slot-scope="row" class="text-right">
                                         <b-dropdown variant="white btn-circle no-caret" right>
                                             <template slot="button-content">
-                                                <i class="fal fa-th"></i>
+                                                <i class="fas fa-th"></i>
                                             </template>
                                             <b-dropdown-header>Actions</b-dropdown-header>
                                             <b-dropdown-item>Punch it, Chewie!</b-dropdown-item>
@@ -175,7 +175,7 @@
                                                 <p class="mb-0" :class="'text-' + message.more.color"><strong>{{ message.more.text }}</strong></p>
                                             </div>
                                             <div class="col-auto">
-                                                <b-button variant="warning text-white btn-circle mt-3"><i class="fal fa-envelope"></i></b-button>
+                                                <b-button variant="warning text-white btn-circle mt-3"><i class="fas fa-envelope"></i></b-button>
                                             </div>
                                         </div>
                                     </b-media>

@@ -3,7 +3,7 @@
         <b-alert show variant="silver">
             <h4 class="alert-heading">About Notifications System</h4>
             <p>The notifications system relies on Snotify package (vue-snotify), you can find a very detailed documentation regarding the component in the package documentation</p>
-            <a href="https://artemsky.github.io/vue-snotify/documentation/" target="_blank" class="btn btn-primary">Snotify Documentation <i class="fal fa-external-link-alt"></i></a>
+            <a href="https://artemsky.github.io/vue-snotify/documentation/" target="_blank" class="btn btn-primary">Snotify Documentation <i class="fas fa-external-link-alt"></i></a>
         </b-alert>
         <b-row>
             <b-col cols="4">
