@@ -83,7 +83,7 @@
                             <span class="date-picker-action">{{ new Date() | moment("subtract", "7 days","MMM Do, YYYY") }} - {{ new Date() | moment("MMM Do, YYYY") }}</span>
                             <b-dropdown variant="white btn-circle no-caret" right>
                                 <template slot="button-content">
-                                    <i class="fas fa-filter"></i>
+                                    <i class="fa fa-filter"></i>
                                 </template>
                                 <b-dropdown-header>Actions</b-dropdown-header>
                                 <b-dropdown-item>Punch it, Chewie!</b-dropdown-item>
@@ -97,7 +97,7 @@
                         <b-table striped responsive hover :items="order66Flow" :fields="order66FlowFields">
                             <template slot="status" slot-scope="row"><b-badge :variant="row.item.statusTheme">{{row.value}}</b-badge></template>
                             <template slot="priority" slot-scope="row"><span :class="'text-' + row.item.statusTheme">{{row.value}}</span></template>
-                            <template slot="actions" slot-scope="row" class="text-right">
+                            <template slot="actions" class="text-right">
                                 <b-dropdown variant="white btn-circle no-caret" right>
                                     <template slot="button-content">
                                         <i class="fas fa-th"></i>
@@ -132,7 +132,7 @@
                                 <b-table striped responsive hover :items="order66Flow" :fields="order66FlowFields">
                                     <template slot="status" slot-scope="row"><b-badge :variant="row.item.statusTheme">{{row.value}}</b-badge></template>
                                     <template slot="priority" slot-scope="row"><span :class="'text-' + row.item.statusTheme">{{row.value}}</span></template>
-                                    <template slot="actions" slot-scope="row" class="text-right">
+                                    <template slot="actions" class="text-right">
                                         <b-dropdown variant="white btn-circle no-caret" right>
                                             <template slot="button-content">
                                                 <i class="fas fa-th"></i>
