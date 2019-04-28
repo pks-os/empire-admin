@@ -2,7 +2,7 @@
     <div class="gauge" :class="'gauge-' + type">
         <div class="row no-gutters">
             <div class="col text-center">
-                <i class="fal" :class="'fa-' + icon"></i>
+                <i class="fas" :class="'fa-' + icon"></i>
                 <p v-html="title"></p>
             </div>
             <div class="col text-center">
