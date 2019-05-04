@@ -1,3 +1,6 @@
+# This project is a work in progress.
+There are many things to finish and improve and any contribution is appreciated.
+
 # empire-admin
 
 > Empire Admin: A Vue + Nuxt + Bootstrap 4 admin template
